@@ -4,7 +4,7 @@ namespace IStore
 {
     public interface IStore<T>
     {
-        void add(T item);
+        void Add(T item);
         T Get(int index);
         IEnumerable<T> GetAll();
         int Count { get; }
