@@ -1,8 +1,8 @@
-using Systems.Collections;
+
 
 namespace IStore
 {
-    public interface IStore
+    public interface IStore<T>
     {
         void add(T item);
         T Get(int index);
@@ -13,4 +13,6 @@ namespace IStore
         void Clear();
 
     }
+
+
 }
