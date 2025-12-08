@@ -34,7 +34,7 @@ namespace Storage
         }
         public void Clear()
         {
-
+            _items.Clear();
         }
     }
 }
